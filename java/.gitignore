@@ -1,5 +1,8 @@
-#Java build
+#Java build output files Eclipse
 target/
+#Java build output files Idea
+out/
+
 .gitignore
 jbrains.iml
 modules.xml
