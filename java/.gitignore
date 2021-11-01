@@ -1,6 +1,18 @@
+#Java build
 target/
 .gitignore
 jbrains.iml
 modules.xml
 runConfigurations.xml
 vcs.xml
+
+# IntelliJ project files
+*.iml
+*.iws
+*.ipr
+.idea/
+
+# eclipse project file
+.settings/
+.classpath
+.project
