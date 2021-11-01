@@ -1,1 +1,6 @@
 target/
+.gitignore
+jbrains.iml
+modules.xml
+runConfigurations.xml
+vcs.xml
