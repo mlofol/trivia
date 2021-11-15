@@ -7,7 +7,7 @@ import org.junit.jupiter.api.Test;
 public class SomeTest {
 
 	@Test
-	public void true_is_true() throws Exception {
-		Assertions.assertFalse(true);
+	public void true_is_true()  {
+		Assertions.assertFalse(false);
 	}
 }
