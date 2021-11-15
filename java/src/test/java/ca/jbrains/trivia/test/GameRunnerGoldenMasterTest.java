@@ -7,12 +7,10 @@ import java.util.Random;
 
 
 public class GameRunnerGoldenMasterTest {
-
 	private static boolean notAWinner;
 
 	public static void main(String[] args) {
 		Game aGame = new Game();
-		
 		aGame.add("Chet");
 		aGame.add("Pat");
 		aGame.add("Sue");
@@ -20,7 +18,6 @@ public class GameRunnerGoldenMasterTest {
 		Random rand = new Random(7777);
 	
 		do {
-			
 			aGame.roll(rand.nextInt(5) + 1);
 			
 			if (rand.nextInt(9) == 7) {
@@ -28,10 +25,6 @@ public class GameRunnerGoldenMasterTest {
 			} else {
 				notAWinner = aGame.wasCorrectlyAnswered();
 			}
-			
-			
-			
 		} while (notAWinner);
-		
 	}
 }
